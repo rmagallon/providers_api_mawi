@@ -3,4 +3,8 @@ Rails.application.routes.draw do
 
 get "/providers/:id/check_availability" , to: "providers#check_availability"
 
+get "/providers/:id/get_hours_per_month" , to: "providers#get_hours_per_month"
+
+get "/providers/:id/get_appointments_ordered" , to: "providers#get_appointments_ordered"
+
 end
