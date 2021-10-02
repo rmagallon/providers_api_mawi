@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2021_09_29_164403) do
 
   create_table "appointments", charset: "utf8mb4", collation: "utf8mb4_0900_ai_ci", force: :cascade do |t|
     t.integer "service_duration", null: false
-    t.date "arrival_date", null: false
+    t.string "arrival_date", null: false
     t.string "arrival_time", null: false
     t.string "end_time", null: false
     t.datetime "created_at", precision: 6, null: false
